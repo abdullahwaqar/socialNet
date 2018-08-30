@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS posts;
+
+CREATE TABLE posts (
+    id MEDIUMINT NOT NULL AUTO_INCREMENT,
+    name VARCHAR NOT NULL,
+    content VARCHAR not NULL
+);
